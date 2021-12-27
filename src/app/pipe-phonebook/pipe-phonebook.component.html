@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="header">
+            <h2>Phone Number Converter</h2>
+        </div>
+        <div class="form">
+            <label>Phone Number : </label>
+            <input type="number" placeholder="Enter your Phone Number" id="num" [(ngModel)]="num"><br><br>
+            <label>Country Code : </label>
+            <input type="number" placeholder="Your Country Code" id="code" [(ngModel)]="code">
+            <button class="info" type="submit" (click)="info()"><i class="fas fa-info-circle"></i></button>
+            <br><br>
+            <button class="con" type="submit" (click)="get()">Convert</button>
+        </div>
+        <div class="form" style="text-align: center;" *ngIf="button"><i class="fas fa-phone-alt" style="font-size: 1.2vw; color: orangered;"></i>  {{num | pipes:code}}</div>
+    </body>
+</html>

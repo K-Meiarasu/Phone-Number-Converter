@@ -1,0 +1,58 @@
+.header{
+    padding: 1vw;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: auto;
+    background-color: tomato;
+    color: whitesmoke;
+    text-align: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.form{
+    margin-left: 36%;
+    margin-top: 2vw;
+    width: 25%;
+    padding: 2vw;
+    font-size: large;
+    text-align: justify;
+    background-color: wheat;
+    box-sizing: border-box;
+    border-radius: 0.4vw;
+    box-shadow: 1vw 1vw 1vw 0 rgb(54, 43, 21);
+}
+input{
+    color: gray;
+    padding: 0.9vw;
+    border-radius: 0.4vw;
+    font-weight: bold;
+}
+#code{
+    width: 7.2vw;
+    padding: 0.9vw;
+    border-radius: 0.4vw;
+}
+.info{
+    color: orangered;
+    background-color: transparent;
+    font-size: 1.2vw;
+    margin: 0.2vw;
+    border: transparent;
+    cursor: pointer;
+}
+.con{
+    width: 7vw;
+    font-weight: bold;
+    color: green;
+    background-color: lightgreen;
+    height: 3vw;
+    border-radius: 0.3vw;
+    cursor: pointer;
+}
+.con:hover{
+    background-color: green;
+    color: white;
+}
